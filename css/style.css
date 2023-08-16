@@ -13,7 +13,7 @@ html,body {
 header {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
@@ -56,7 +56,7 @@ header {
     height: 100%;
     object-fit: cover;
 }
-.carouselPort__avtar {
+.carouselPort__avatar {
     width: 140px;
 
     background: rgba(255, 255, 255, 0);
@@ -65,7 +65,7 @@ header {
     border-radius: 50%;
     backdrop-filter: blur(3px);
 }
-.carouselPort__avtar img {
+.carouselPort__avatar img {
     background: rgba(255, 255, 255, 0.2);
     border: 7px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
