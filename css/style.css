@@ -33,7 +33,6 @@ header {
 }
 #portNavbar .nav-item:hover::after {
     width: 100%;
-    opacity: 1;
 }
 #portNavbar .nav-item.active::after {
     width: 100%;
